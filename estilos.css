@@ -14,13 +14,18 @@ h2 {
   #nombre {
     color: #233451;
   }
-   /* SERVICE  */
-  .services {
+   /* servidcio  */
+  .servicio {
     background: #fb7171;
     padding: 10px 30px;
   }
   h3 {
     color: #fff;
+  }
+  .servicio .primerserv{
+    display: flex; 
+    justify-content: center; 
+    flex-flow: row wrap;
   }
    /* PORTFOLIO  */
   .portafolio {
@@ -34,7 +39,7 @@ h2 {
     justify-content: center; 
     flex-flow: row wrap; 
   }
-  /* CUSTOMERS  */
+  /* clientes */
   .Clientes {
     background: #3f4e62;
     display: flex;
@@ -65,14 +70,14 @@ h2 {
   }
   textarea {
     border-radius: 5px;
-    width: 80%;
+    width: 83%;
     padding: 5px;
     min-height: 100px;
     max-height: 200px;
-    max-width: 80%;
+    max-width: 85%;
   }
   #boton {
-    width: 80%;
+    width: 85%;
     background: #233451;
     color: #ffffff;
     margin-top: 20px;
