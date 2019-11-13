@@ -4,6 +4,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+button{
+  border: 0;
+  border-radius: 15px;
+}
 body {
   font-family: Arial;
 }
@@ -209,12 +213,16 @@ textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 85%;
+  resize: none;
 }
 #boton {
-  width: 81%;
+  width: 20%;
   background: #233451;
   color: #ffffff;
   margin-top: 20px;
+  padding: 4px;
+  margin-left: 30%;
+  align-content: center;
 }
 
 #boton:hover {
