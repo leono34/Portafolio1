@@ -1,0 +1,222 @@
+/*global*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+h1 {
+  position: absolute;
+  top: 36px;
+  font-family: Roboto;
+  font-size: 64px;
+  line-height: 75px;
+  width: 211px;
+  left: 39%;
+  top: 36px;
+  color: #ffffff;
+}
+h2 {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* inicio-banner*/
+.banner {
+  position: relative;
+}
+.cuentas {
+  position: absolute;
+  z-index: 1;
+  top: 11px;
+  left: 784px;
+}
+.cuentas div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.banner figure img {
+  display: block;
+  margin: 0;
+  z-index: 0;
+  width: 100%;
+  border: 0px;
+}
+.banner h2 {
+  color: #fff;
+  border-radius: 10px;
+  text-align: left;
+  position: absolute;
+  width: 365px;
+  height: 117px;
+  left: 52px;
+  top: 270px;
+  background: rgba(114, 153, 254, 0.5);
+  padding: 16px 16px 16px 16px;
+  display: inline-block;
+}
+/* SKILL  */
+.skill {
+  display: block;
+  margin: 0px;
+  background: #5151b4;
+  position: relative;
+  width: 100%;
+  height: 424px;
+  top: 100%;
+}
+  .skill h2 {
+    text-align: center;
+  }
+  .skill .caja {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .skill .caja div:nth-child(even) {
+    width: 44%;
+    margin-bottom: 22px;
+    margin-left: 15px;
+
+  }
+  .skill .caja div:nth-child(odd) {
+    width: 44%;
+    margin-bottom: 22px;
+  }
+  .caja h3{
+    margin-bottom: 20px;
+  }
+  .caja progress{
+      width: 100%;
+      background-color: black;
+  }
+/* servidcio  */
+.servicio {
+  position: absolute;
+  width: 100%;
+  height: 424px;
+  left: 0px;
+  top: 949px;
+  background: #fb7171;
+}
+.serviciotexto{
+  margin-top: 20px;
+}
+  
+.servicio .primerserv {
+  width: 750px;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 180px;
+  
+}
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+.primerserv div img{
+  margin-left: 40%;
+
+}
+.primerserv div{
+  width: 33.3%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* PORTFOLIO  */
+.portafolio {
+  position: absolute;
+  width: 100%;
+  height: 424px;
+  top: 1373px;
+  background: #ffd233;
+  left: 0px;
+}
+.porp{
+  margin-top: 40px;
+}
+.primerp {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 750px;
+  top: 80px;
+  margin-left:180px;
+}
+.primerp figure{
+  margin-top: 35px;
+  width: 25%;
+}
+/* clientes */
+.Clientes {
+  position: absolute;
+  width: 100%;
+  height:258px;
+  top:1797px;
+  background: #3f4e62;
+}
+.Clientes .clie {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 180px;
+  margin-top: 35px;
+}
+.Clientes .clie img{
+  margin:5px;
+}
+/* CONTACT  */
+.contact {
+  position: absolute;
+  width: 100%;
+  height: 578px;
+  top: 2054px;
+  background: #16a085;
+}
+
+/* FORMULARIO  */
+form {
+  width: 600px;
+  margin-left: 28%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+input {
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  flex: 1 1 auto;
+}
+textarea {
+  border-radius: 5px;
+  width: 81%;
+  padding: 5px;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 85%;
+}
+#boton {
+  width: 81%;
+  background: #233451;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}

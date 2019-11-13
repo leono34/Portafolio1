@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portafolio-leon</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="./css/estilos.css" />
     <meta name="description"
         content="Pagina web sobre portafolio de Joan Macha, creada en conjunto en el 
          programa codiGO"
@@ -69,74 +71,79 @@
        <div id="fb-root"></div>
        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
      <div>
-     
-      <main>
-        <!-- BANNERS -->
-        <ul><li>
-            <div class="fb-share-button" data-href="https://leono34.github.io/project-portafolio/" data-layout="button" data-size="large">
-            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fleono34.github.io%2Fproject-portafolio%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-        </li>
-        <li><a class="twitter-share-button"
-          href="https://twitter.com/intent/tweet"
-          data-size="large"
-          data-text="custom share text"
-          data-url="https://dev.twitter.com/web/tweet-button"
-          data-hashtags="example,demo"
-          data-via="twitterdev"
-          data-related="twitterapi,twitter">
-        Tweet
-        </a></li>
-        <li>
-            <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-            <script type="IN/Share" data-url="https://leono34.github.io/project-portafolio/"></script>
-        </li>
-      </ul>
+        <main>
+        <!-- BANERS -->
+        <div class="cuentas">
+           <div > 
+                <div class="fb-share-button" data-href="https://leono34.github.io/project-portafolio/" data-layout="button" data-size="large">
+               <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fleono34.github.io%2Fproject-portafolio%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+            </div>
+            <div > 
+               <div><a class="twitter-share-button"
+               href="https://twitter.com/intent/tweet"
+                data-size="large"
+               data-text="custom share text"
+               data-url="https://dev.twitter.com/web/tweet-button"
+               data-hashtags="example,demo"
+               data-via="twitterdev"
+               data-related="twitterapi,twitter">
+                  Tweet
+                  </a></div>
+            </div>
+            <div >
+                 <div> <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                <script type="IN/Share" data-url="https://leono34.github.io/project-portafolio/"></script>
+                  </div>
+             </div>
+        </div>
         <section class="banner" >
-          <h1>codiGo</h1>
-           <figure>
-              <img src="./img/image.png" alt="banner" width="960"  height="525" />
-           </figure>
-           <h2 id="nombre">hola mi nombre es Sebastian Yabiku </h2>
-         </section>
+           <h1>codiGo</h1>
+               <figure>
+                     <img src="./img/image.png" alt="banner" width="960"  height="525" />
+               </figure>
+           <h2 >Hola mi nombre <br> es Joan Isael Macha </h2>
+        </section>
         <!-- SKILL -->
         <section class="skill">
           <h2>My skill</h2>
+          <div class="caja">
            <div>
             <h3>HTML</h3>
             <progress value="70" max="100">70 %</progress>
            </div>
            <div>
-            <h3>Css</h3>
+            <h3>JavaScript</h3>
             <progress value="50" max="100">70 %</progress>
            </div>
            <div>
-            <h3>Angular</h3>
+            <h3>Css</h3>
             <progress value="40" max="100">70 %</progress>
+           </div>
+           <div>
+            <h3>React</h3>
+            <progress value="60" max="100">70 %</progress>
+           </div>
+           <div>
+            <h3>Angular</h3>
+            <progress value="70" max="100">70 %</progress>
+           </div>
+           <div>
+            <h3>Python</h3>
+            <progress value="30" max="100">70 %</progress>
            </div>
            <div>
             <h3>Figma</h3>
             <progress value="60" max="100">70 %</progress>
            </div>
            <div>
-            <h3>JavaScript</h3>
-            <progress value="70" max="100">70 %</progress>
-           </div>
-           <div>
-            <h3>React</h3>
-            <progress value="30" max="100">70 %</progress>
-           </div>
-           <div>
-            <h3>Python</h3>
-            <progress value="60" max="100">70 %</progress>
-           </div>
-           <div>
             <h3>Node.js</h3>
             <progress value="30" max="100">70 %</progress>
            </div>
-         </section>
+        </div>
+        </section>
         <!--SERVICE-->
          <section class="servicio">
-          <h2>Servicios</h2>
+          <h2 class="serviciotexto">Servicios</h2>
           <div class="primerserv">
           <div>
             <img src="./img/Vector.png" alt="check" />
@@ -150,7 +157,6 @@
             <img src="./img/Vector.png" alt="check" />
             <h3>Desarrollo <br> Web</h3>
           </div>
-        
           <div>
             <img src="./img/Vector.png" alt="check" />
             <h3>Diseño UX</h3>
@@ -170,32 +176,32 @@
          <h2 class="porp">Portafolio</h2>
           <div class="primerp">
             <figure>
-              <img src="./img/portafolio/imagen1.png" alt="" />
+              <img src="./img/portafolio/imagen1.png" alt="imagen1" />
             </figure>
            <figure>
-              <img src="./img/portafolio/imagen2.png" alt="" />
+              <img src="./img/portafolio/imagen2.png" alt="imagen2" />
               </figure>
              <figure>
-              <img src="./img/portafolio/imagen3.png" alt="" />
+              <img src="./img/portafolio/imagen3.png" alt="imagen3" />
               </figure>
             <figure>
-              <img src="./img/portafolio/imagen4.png" alt="" />
+              <img src="./img/portafolio/imagen4.png" alt="imagen4" />
             </figure> 
            <figure>
-             <img src="./img/portafolio/imagen5.png" alt="" />
+             <img src="./img/portafolio/imagen5.png" alt="imagen5" />
            </figure>
            <figure>
-             <img src="./img/portafolio/imagen6.png" alt="" />
+             <img src="./img/portafolio/imagen6.png" alt="imagen6" />
            </figure>
            <figure>
-              <img src="./img/portafolio/imagen7.png" alt="" />
+              <img src="./img/portafolio/imagen7.png" alt="imagen7" />
            </figure>
            <figure>
-             <img src="./img/portafolio/imagen8.png" alt="" />
+             <img src="./img/portafolio/imagen8.png" alt="imagen8" />
             </figure>
           </div>
          </section>
-        <!--CUSTOMERS-->
+        <!--Clientes-->
         <section class="Clientes">
             <h2>Clientes</h2>
             <div class="clie">
