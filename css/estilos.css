@@ -126,6 +126,7 @@ h2 {
   flex-wrap: wrap;
   margin-top: 50px;
   margin-left: 180px;
+  margin: auto;
   
 }
 h3 {
@@ -161,6 +162,7 @@ h3 {
   width: 750px;
   top: 80px;
   margin-left:180px;
+  margin: auto;
 }
 .primerp figure{
   margin-top: 35px;
@@ -173,6 +175,7 @@ h3 {
   height:258px;
   top:1797px;
   background: #3f4e62;
+  
 }
 .Clientes .clie {
   display: flex;
@@ -202,13 +205,17 @@ form {
 input {
   width: 40%;
   margin-bottom: 15px;
-  padding: 5px;
+  margin:auto;
+  margin: 5px;
+  padding: 10px;
   border-radius: 5px;
   flex: 1 1 auto;
 }
 textarea {
   border-radius: 5px;
   width: 81%;
+  margin: auto;
+  margin: 5px;
   padding: 5px;
   min-height: 100px;
   max-height: 200px;
@@ -223,6 +230,7 @@ textarea {
   padding: 4px;
   margin-left: 30%;
   align-content: center;
+  margin: auto;
 }
 
 #boton:hover {
